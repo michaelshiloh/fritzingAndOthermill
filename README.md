@@ -2,9 +2,10 @@
 
 
 
-A trivial single sided Arduino shield
+# A trivial single sided Arduino shield
 Schematic
-Fritzing Instructions
+
+## Fritzing Instructions
 
     Open Fritzing and go to the Schematic View
 
@@ -52,88 +53,92 @@ Gerber
 
         Put all the project files on the thumbdrive
 
-Othermill Instructions
+## Othermill Instructions
 
-    If Otherplan is running, quit
+### Preparation
 
-    Start Otherplan
+1. If Otherplan is running, quit
 
-    Turn on Othermill
+1. Start Bantam software
 
-    Home the machine
+1. Turn on Othermill
 
-    Click “Loading” (in “Move to Position”)
+1. Home the machine
 
-    Insert single sided PCB stock. Verify with a monitor that you have aligned
-the PCB  to the correct corner of the bracket.
+### Material
 
-    Set up material (in “Setup”)
+1. Single Sided FR-1 L2
 
-        Single Sided FR-1 L2
+1. Standard dimensions (5.000in X 4.000in Y 0.061in Z)
 
-        Standard dimensions (5.000in X 4.000in Y 0.061in Z)
+1. Select left or right bracket as appropriate
 
-        Click “Continue”
+### Plans
 
-        Click “Align to Bracket”
+1. Insert thumb drive
 
-        Click “Done
+1. Click "Open Files"
 
-    Insert thumb drive
+1. Navigate to your thumb drive and select
+	your copperTop.gtl file
 
-    Import files
+1. "Choose Gerber Files" 
 
-        It will only allow you to click on your copperTop.gtl file but it will
-import all the files
+1.1. leave Top, Bottom, and Holes as is 
 
-        (skip this step: Select “Autogenerate” for the “Board Outline”
-setting. This is at the bottom of the File Import window. If you don’t see the
-options, click the “Options” button.)
+1.1.  click "Clear" for Outline
 
-    Add tools
+1.1.Press "Okay"
 
-        In “Tools to Use” add 1/16″, 1/32″, and 1/64″ Flat End Mill
+1. Your files will appear and you can see the board in the preview.
 
-    Important: Now that you have added tools, OtherPlan will show the cuts it
+#### Parts to Mill
+
+1. Note whether the preview is showing the right side of the board. If not,
+select "Top" or "Bottom" in "Parts to Mill"
+
+#### Placement
+
+1. If the placement is not where you want it (e.g. if you are using a 
+scrap of board) select "Placement" and move the board to where you want.
+Always leave at least .1" between the bracket and your traces by placment
+adjustment.
+
+#### Milling Tools
+
+1. add 1/16″, 1/32″, and 1/64″ Flat End Mill. The order doesn't matter.
+
+Important: Now that you have added tools, OtherPlan will show the cuts it
 will make. Inspect the board carefully and make sure that no traces or holes
 are connected where they shouldn’t be, for example if they are too close
 together
 
-    Change tool
+## Click "Mill all Visible"
 
-        Click “Change” in “Setup” next to Tool
+1. You will be prompted to insert the smallest endmill
 
-        Remove end mill
+1.1. Insert the requested endmill
 
-        Click “Continue”
+1.1. Close the window and press "Continue"
 
-        Select 1/64″ Flat End Mill
+1.1. Press "Locate Tool"
 
-        Insert 1/64″ flat end mill
+1. You will be prompted to insert the next endmill
 
-        Click “Continue”
+1.1. Insert the requested endmill
 
-        Allow homing again
+1.1. Close the window and press "Continue"
 
-        Verify tool position (usually just hit “Continue”)
+1.1. Press "Locate Tool"
 
-        Verify safety zone (usually just hit “Continue”)
+1. Repeat for the next tool
 
-        In “Parts to Cut”, make sure all three (Traces, Holes, and Outlines)
-
-are selected
-
-        Click “Start Cutting”
-
-        When instructed, change the tool to the 1/32″ flat end mill and again
-
-home the machine and locate the toolbit. Repeat for the 1/16″ end mill
 
         When the milling stops, move the board to the front of the machine
 (Click “Loading” in “Move to Position”) and remove your board. There is a thin
 spatula that can be used to help unstick your board.
 
-A double sided Arduino shield
+# A double sided Arduino shield
 
 Schematic
 
@@ -311,3 +316,8 @@ home the machine and locate the toolbit. Repeat for the 1/16″ end mill
 spatula that can be used to help unstick your board.
 
 
+------------
+1. Click “Loading” (in “Move to Position”)
+
+1. Insert single sided PCB stock. Verify with a monitor that you have aligned
+the PCB  to the correct corner of the bracket.
