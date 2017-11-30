@@ -53,7 +53,7 @@ Gerber
 
         Put all the project files on the thumbdrive
 
-## Othermill Instructions
+# Othermill Instructions
 
 ### Preparation
 
@@ -103,6 +103,20 @@ select "Top" or "Bottom" in "Parts to Mill"
 scrap of board) select "Placement" and move the board to where you want.
 Always leave at least .1" between the bracket and your traces by placment
 adjustment.
+
+1. Press the "Loading" button to move the platform to the front of the machine
+
+1. Clean the platform carefully of any dust or other debris, especially in the
+corners of the bracket
+
+1. Apply double sided tape to your blank PCB. You should cover most of the
+PCB.
+
+1. Carefully align the blank PCB to the one cornner of the bracket 
+and press it firmly in place. 
+
+1. Make sure your blank PCB is stuck down really well.
+
 
 #### Milling Tools
 
