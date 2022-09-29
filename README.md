@@ -1,5 +1,8 @@
 # fritzingAndOthermill
 
+Get Fritzing [here](https://fritzing.org/)
+Othermill is now the Bantam Tools [Desktop CNC Milling
+Machine](https://store.bantamtools.com/products/bantam-tools-desktop-cnc-milling-machine)
 
 
 # A trivial single sided Arduino shield
